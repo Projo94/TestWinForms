@@ -16,7 +16,8 @@ CREATE TABLE IF NOT EXISTS public.users
 (
     users_uid SERIAL PRIMARY KEY,
     username character(20) NOT NULL,
-    password character(20) NOT NULL)
+    password character(20) NOT NULL
+)
 ```
 
 

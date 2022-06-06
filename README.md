@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS public.users
 
 ``` sql
 INSERT INTO public.users(username, password)
-VALUES ('test','test')
+VALUES ('Admin','password')
 ```
 
 - Change App.config file connection string section with your PostgreSQL server configuration:
